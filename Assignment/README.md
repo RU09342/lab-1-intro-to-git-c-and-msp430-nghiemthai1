@@ -16,5 +16,6 @@ If the Opertor is '/', the program will divide num2 from num1.
 If the Opertor is '%', the program will take the modulus of num1 and num2.
 
 # How to implement this on your computer
+The math.h file is the header file that ensure the math(num1,num2,Operator) fuction is implemened. 
 When you run the math.c file, it will print to the console a line that ask you for the 2 numbers and the Operator. 
-After you input these parameters, the result will pop up. 
+After you input these parameters, math.c file will take these variables and put them in a function called math(int num1, int num2, char Character). This function will return the integer result of the desired operation.
