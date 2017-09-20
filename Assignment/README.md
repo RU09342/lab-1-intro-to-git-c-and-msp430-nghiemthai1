@@ -6,14 +6,24 @@ It takes in two numbers as parameters and performs various operations on them ba
 There are 5 operations that this program can run, including: addition, subtraction, division, multiplication, and modulus. 
 ### Addition
 If the Opertor is '+', the program will add num1 and num2. 
+'math(1,2,'+');' 
+will give you 3
 ### Subtraction
 If the Opertor is '-', the program will subtract num2 from num1.
-### Division
-If the Opertor is 'x', the program will multiply num1 and num2.
+'math(1,2,'-');' 
+will give you -1
 ### Multiplication
+If the Opertor is 'x', the program will multiply num1 and num2.
+'math(1,2,'x');' 
+will give you 2
+### Division
 If the Opertor is '/', the program will divide num2 from num1.
+'math(2,2,'/');' 
+will give you 1
 ### Mudulus
 If the Opertor is '%', the program will take the modulus of num1 and num2.
+'math(1,2,'%');' 
+will give you 1
 
 # Example
 If you input '+' for Operator, '5' for num1, and '2' for num2, the program will return to you '7' 
