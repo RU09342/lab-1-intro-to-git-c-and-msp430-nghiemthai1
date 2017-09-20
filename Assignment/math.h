@@ -14,10 +14,11 @@
  * % Modulus (num1 % num2)
 */
 
-#ifndef MATH_H_
-#define MATH_H_
+#ifndef MATH_H_ //If MATH_H is not defined, define it
+#define MATH_H_ //Pre comliation define a variable
 
 //Part of your documentation should be listing the valid inputs and outputs for the functions you create.
-int math(int num1, int num2, char Operator);
+int math(int num1, int num2, char Operator); 
 
-#endif /* MATH_H_ */
+#endif //End definition
+/* MATH_H_ */ 

@@ -19,35 +19,34 @@ int math(int num1, int num2, char Operator)
 
 {
 
-    //Determind what operation to execute
-    
+    //Compare the input Operator with valid character to determind what operation to execute
 if (Operator == '+') {
 
-         return num1 + num2;
+         return num1 + num2; // Addition
 
     }
 
     else if (Operator =='-'){
 
-        return num1 - num2;
+        return num1 - num2; // Subtraction
 
     }
 
     else if (Operator =='x'){
 
-        return num1 * num2;
+        return num1 * num2; //Multiplication
 
     }
 
     else if (Operator =='/'){
 
-        return num1 / num2;
+        return num1 / num2; //Division
 
     }
 
     else if (Operator =='%'){
 
-        return num1 % num2;
+        return num1 % num2; //Mudulation
 
     }
 
@@ -74,7 +73,7 @@ int main()
     //Promt for the 2 numbers and the Operator
     printf("Enter the desired operation: ");
 
-    scanf("%c" , &Operator);
+    scanf("%c" , &Operator); //Scan and assign to operator variable
 
 
     printf("Enter first number: ");
@@ -88,9 +87,9 @@ int main()
 
     
     //Get and print out the result
-    int a = math(num1,num2,Operator);
+    int a = math(num1,num2,Operator); //Call for math() function
 
-    printf("Result: %d", a);
+    printf("Result: %d", a); //Print out the result
 
     return 0;
 
